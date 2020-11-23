@@ -54,7 +54,7 @@ public class CheatActivity extends AppCompatActivity {
 
         // Challenge
         mShowAPITextView = (TextView) findViewById(R.id.show_api_text_view);
-        String versionAPI = "API Level " + String.valueOf(Build.VERSION.SDK_INT); // SDK deprecated
+        String versionAPI = "API Level " + Build.VERSION.SDK_INT; // SDK deprecated
         mShowAPITextView.setText(versionAPI);
 
 
